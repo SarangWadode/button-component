@@ -17,7 +17,7 @@
 
 .buttons {
     display: grid;
-    grid-row-gap: 40px;
+    grid-row-gap: 25px;
     padding-right: 50px;
     margin: 30px 0;
     /* background-color: crimson; */

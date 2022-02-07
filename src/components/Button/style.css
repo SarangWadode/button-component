@@ -9,6 +9,8 @@ button {
   font-family: Noto Sans JP;
   font-size: 16px;
   font-weight: 500;
+  border: none;
+  margin-top: 10px;
 }
 
 button:hover,
@@ -40,4 +42,22 @@ button.text:hover,
   background: rgba(41, 98, 255, 0.1);
   border-radius: 6px;
   cursor: pointer;
+}
+
+button.disableShadow {
+  box-shadow: none;
+  background: #3D5AFE;
+  color: #FFF;
+  border: none;
+}
+
+button.disabled {
+  background: #E0E0E0;
+  color: #9E9E9E;
+  cursor: not-allowed;
+}
+
+button.text.disabled {
+  background: none;
+  cursor: not-allowed;
 }

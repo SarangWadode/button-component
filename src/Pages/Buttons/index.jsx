@@ -34,18 +34,18 @@ export default function index() {
                 <div className="btns disabled-shadow">
                     <div className="btn">
                         < Title title="<Button disableShadow />" />
-                        <Button />
+                        <Button disableShadow='disableShadow' />
                     </div>
                 </div>
 
                 <div className="btns disabled">
                     <div className="btn">
-                        < Title title="t" />
-                        <Button />
+                        < Title title="<Button disabled />" />
+                        <Button disabled />
                     </div>
                     <div className="btn">
-                        < Title title="t" />
-                        <Button />
+                        < Title title="<Button varient='text' disabled />" />
+                        <Button varient='text' disabled />
                     </div>
                 </div>
 
