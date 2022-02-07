@@ -1,9 +1,10 @@
 import './App.css';
+import  Title from './components/Title/index.jsx';
 
 function App() {
   return (
     <div className="App">
-      <h1>Button Component</h1>
+      < Title />
     </div>
   );
 }
