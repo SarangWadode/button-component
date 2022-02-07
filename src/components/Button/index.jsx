@@ -3,6 +3,6 @@ import './style.css'
 
 export default function Button() {
   return <>
-   <button>Default</button>
+   <button className='button'>Default</button>
   </>;
 }
