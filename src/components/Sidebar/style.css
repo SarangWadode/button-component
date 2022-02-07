@@ -1,0 +1,46 @@
+.logo {
+  position: absolute;
+  left: 48px;
+  top: 38px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.dev {
+  color: #f7542e;
+}
+
+.pages {
+  position: absolute;
+  left: 0;
+  top: 180px;
+  margin: 0;
+  width: 15%;
+}
+
+.pages ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #9e9e9e;
+}
+
+.pages ul li {
+  margin-bottom: 30px;
+  padding-left: 50px;
+  padding-top: 12px;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+}
+
+.pages ul li:hover {
+  background-color: #9e9e9e;
+  color: #090f31;
+}
