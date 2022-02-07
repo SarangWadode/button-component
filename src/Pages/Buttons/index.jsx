@@ -10,97 +10,85 @@ export default function index() {
             <h1>Buttons</h1>
 
             <div className="buttons">
-                <div className="btn simple">
-                    <div className="sample">
+                <div className="btns simple">
+                    <div className="btn">
+                        < Title title="<Button />" />
+                        <Button />
+                    </div>
+                </div>
+
+                <div className="btns outline">
+                    <div className="btn">
+                        < Title title="<Button varient='outline' />" />
+                        <Button />
+                    </div>
+                </div>
+
+                <div className="btns text">
+                    <div className="btn">
+                        < Title title="<Button varient='text' />" />
+                        <Button />
+                    </div>
+                </div>
+
+                <div className="btns disabled-shadow">
+                    <div className="btn">
+                        < Title title="<Button disableShadow />" />
+                        <Button />
+                    </div>
+                </div>
+
+                <div className="btns disabled">
+                    <div className="btn">
                         < Title title="t" />
                         <Button />
                     </div>
-                    <div className="sample">
+                    <div className="btn">
                         < Title title="t" />
                         <Button />
                     </div>
                 </div>
 
-                <div className="btn outline">
-                    <div className="sample">
+                <div className="btns icons">
+                    <div className="btn">
                         < Title title="t" />
                         <Button />
                     </div>
-                    <div className="sample">
-                        < Title title="t" />
-                        <Button />
-                    </div>
-                </div>
-
-                <div className="btn text">
-                    <div className="">
-                        < Title title="t" />
-                        <Button />
-                    </div>
-                    <div className="">
+                    <div className="btn">
                         < Title title="t" />
                         <Button />
                     </div>
                 </div>
 
-                <div className="btn disabled-shadow">
-                    <div className="">
+                <div className="btns size">
+                    <div className="btn">
                         < Title title="t" />
                         <Button />
                     </div>
-                    <div className="">
+                    <div className="btn">
                         < Title title="t" />
                         <Button />
                     </div>
-                </div>
-
-                <div className="btn disabled">
-                    <div className="">
-                        < Title title="t" />
-                        <Button />
-                    </div>
-                    <div className="">
+                    <div className="btn">
                         < Title title="t" />
                         <Button />
                     </div>
                 </div>
 
-                <div className="btn icons">
-                    <div className="">
+                <div className="btns color">
+                    <div className="btn">
                         < Title title="t" />
                         <Button />
                     </div>
-                    <div className="">
+                    <div className="btn">
                         < Title title="t" />
                         <Button />
                     </div>
-                </div>
-
-                <div className="btn size">
-                    <div className="">
+                    <div className="btn">
                         < Title title="t" />
                         <Button />
                     </div>
-                    <div className="">
-                        < Title title="t" />
-                        <Button />
-                    </div>
-                    <div className="">
-                        < Title title="t" />
-                        <Button />
-                    </div>
-                </div>
-
-                <div className="btn color">
-                    <div className="">
-                        < Title title="t" />
-                        <Button />
-                    </div>
-                    <div className="">
-                        < Title title="t" />
-                        <Button />
-                    </div>
-                    <div className="">
+                    <div className="btn">
                         < Title title="t" />
                         <Button />
                     </div>

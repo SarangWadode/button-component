@@ -17,22 +17,21 @@
 
 .buttons {
     display: grid;
-    grid-row-gap: 50px;
+    grid-row-gap: 40px;
     padding-right: 50px;
+    margin: 30px 0;
     /* background-color: crimson; */
 }
 
 
-.btn {
+.btns {
     display: grid;
-    /* background: rgb(150, 237, 100); */
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 100px;
-    grid-column-gap: 100px;
+    background: rgb(150, 237, 100);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.sample {
-    /* background: rgb(20, 220, 170); */
+.btn {
+    background: rgb(20, 220, 170);
     height: 100px;
     display: flex;
     flex-direction: column;
