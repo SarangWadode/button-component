@@ -1,0 +1,42 @@
+.wrapper {
+  flex: 0.8;
+}
+
+.wrapper h1 {
+  color: #4f4f4f;
+  width: 93px;
+  height: 36px;
+  left: 320px;
+  top: 53px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.buttons {
+    display: grid;
+    grid-row-gap: 50px;
+    padding-right: 50px;
+    /* background-color: crimson; */
+}
+
+
+.btn {
+    display: grid;
+    /* background: rgb(150, 237, 100); */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 100px;
+    grid-column-gap: 100px;
+}
+
+.sample {
+    /* background: rgb(20, 220, 170); */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
