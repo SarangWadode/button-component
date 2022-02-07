@@ -26,12 +26,12 @@
 
 .btns {
     display: grid;
-    background: rgb(150, 237, 100);
+    /* background: rgb(150, 237, 100); */
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .btn {
-    background: rgb(20, 220, 170);
+    /* background: rgb(20, 220, 170); */
     height: 100px;
     display: flex;
     flex-direction: column;

@@ -20,14 +20,14 @@ export default function index() {
                 <div className="btns outline">
                     <div className="btn">
                         < Title title="<Button varient='outline' />" />
-                        <Button />
+                        <Button varient='outline' />
                     </div>
                 </div>
 
                 <div className="btns text">
                     <div className="btn">
                         < Title title="<Button varient='text' />" />
-                        <Button />
+                        <Button varient='text' />
                     </div>
                 </div>
 

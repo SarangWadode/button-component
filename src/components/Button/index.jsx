@@ -1,8 +1,11 @@
 import React from 'react';
 import './style.css'
 
-export default function Button() {
+export default function Button( {varient} ) {
   return <>
-   <button className='button'>Default</button>
+    <button 
+    className={(varient === 'outline' ? 'outline': (varient === 'text'? 'text': ''))}>
+      Default
+    </button>
   </>;
 }
