@@ -1,7 +1,34 @@
 import React from 'react';
 import './style.css'
+import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 
-export default function Button({ varient, disabled, disableShadow }) {
+export default function Button({ varient, disabled, disableShadow, icon, size, color }) {
+  function buttonSize(sz) {
+    if (sz === 'sm') {
+      return 'sm'
+    } else if (sz === 'md') {
+      return 'md'
+    } else if (sz === 'lg') {
+      return 'lg'
+    } else {
+      return ''
+    }
+  }
+
+  function buttonColor(clr) {
+    if (clr === 'default') {
+      return 'default'
+    } else if (clr === 'primary') {
+      return 'primary'
+    } else if (clr === 'secondary') {
+      return 'secondary'
+    } else if (clr === 'danger'){
+      return 'danger'
+    } else {
+      return ''
+    }
+  }
+
   return <>
     <button
       className={`
@@ -12,11 +39,15 @@ export default function Button({ varient, disabled, disableShadow }) {
         } 
         ${(disableShadow) ? 'disableShadow' : ''}
         ${(disabled ? 'disabled' : '')}
+        ${(icon) ? 'buttonIcon' : ''} 
+        ${buttonSize(size)} 
+        ${buttonColor(color)}
       `}
       disabled={(disabled) ? 'disabled' : false}
-
     >
+      <span className="icon">{(icon === 'start') ? <LocalGroceryStoreIcon style={{'color': '#fff'}} /> : ''}</span>
       Default
+      <span className="icon">{(icon === 'end') ? <LocalGroceryStoreIcon style={{'color': '#fff'}} /> : ''}</span>
     </button>
   </>;
 }

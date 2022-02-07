@@ -30,6 +30,13 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.btns-icons {
+    display: grid;
+    /* background: rgb(150, 237, 100); */
+    grid-template-columns: 1fr 1fr;
+}
+
+
 .btn {
     /* background: rgb(20, 220, 170); */
     height: 100px;

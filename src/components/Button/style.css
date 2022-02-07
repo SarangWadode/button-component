@@ -21,7 +21,7 @@ button:hover,
 button.outline {
   border: 2px solid #3d5afe;
   color: #3d5afe;
-  background: #FFF;
+  background: #fff;
 }
 
 button.outline:hover,
@@ -46,18 +46,113 @@ button.text:hover,
 
 button.disableShadow {
   box-shadow: none;
-  background: #3D5AFE;
-  color: #FFF;
+  background: #3d5afe;
+  color: #fff;
   border: none;
 }
 
 button.disabled {
-  background: #E0E0E0;
-  color: #9E9E9E;
+  background: #e0e0e0;
+  color: #9e9e9e;
   cursor: not-allowed;
 }
 
 button.text.disabled {
   background: none;
   cursor: not-allowed;
+}
+
+button.buttonIcon {
+  width: 120px;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+  border-radius: 10px;
+  color: #fff;
+}
+
+button.buttonIcon:hover,
+:focus {
+  background: #1f22d3;
+}
+
+button span {
+  margin: 0 8px;
+}
+
+button.sm {
+  color: #fff;
+  background: #2962ff;
+  width: 90px;
+  height: 35px;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+
+button.sm:hover,
+:focus {
+  background: #0039cb;
+}
+
+button.md {
+  color: #fff;
+  background: #2962ff;
+  width: 100px;
+  height: 40px;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+
+button.md:hover,
+:focus {
+  background: #0039cb;
+}
+
+button.lg {
+  color: #fff;
+  background: #2962ff;
+  width: 110px;
+  height: 45px;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+
+button.lg:hover,
+:focus {
+  background: #0039cb;
+}
+
+button.default {
+  background: #E0E0E0;
+}
+
+button.default:hover,
+:focus {
+  background: #aeaeae;
+}
+
+button.primary {
+  background: #2962FF;
+  color: #FFF;
+}
+
+button.primary:hover,
+:focus {
+  background: #0039CB;
+}
+
+button.secondary {
+  background: #455A64;
+  color: #FFF;
+}
+
+button.secondary:hover,
+:focus {
+  background: #1C313A;
+}
+
+button.danger {
+  background: #D32F2F;
+  color: #FFF;
+}
+
+button.danger:hover,
+:focus {
+  background: #9A0007;
 }

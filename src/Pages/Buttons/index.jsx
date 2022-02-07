@@ -49,48 +49,48 @@ export default function index() {
                     </div>
                 </div>
 
-                <div className="btns icons">
+                <div className="btns-icons">
                     <div className="btn">
-                        < Title title="t" />
-                        <Button />
+                        < Title title="<Button startIcon='local_grocery_store' />" />
+                        <Button icon='start' />
                     </div>
                     <div className="btn">
-                        < Title title="t" />
-                        <Button />
+                        < Title title="<Button endIcon='local_grocery_store' />" />
+                        <Button icon='end' />
                     </div>
                 </div>
 
                 <div className="btns size">
                     <div className="btn">
-                        < Title title="t" />
-                        <Button />
+                        < Title title="<Button size='sm' />" />
+                        <Button size='sm' />
                     </div>
                     <div className="btn">
-                        < Title title="t" />
-                        <Button />
+                        < Title title="<Button size='md' />" />
+                        <Button size='md' />
                     </div>
                     <div className="btn">
-                        < Title title="t" />
-                        <Button />
+                        < Title title="<Button size='lg' />" />
+                        <Button size='lg' />
                     </div>
                 </div>
 
                 <div className="btns color">
                     <div className="btn">
-                        < Title title="t" />
-                        <Button />
+                        < Title title="<Button color='default' />" />
+                        <Button color='default' />
                     </div>
                     <div className="btn">
-                        < Title title="t" />
-                        <Button />
+                        < Title title="<Button color='primary' />" />
+                        <Button color='primary' />
                     </div>
                     <div className="btn">
-                        < Title title="t" />
-                        <Button />
+                        < Title title="<Button color='secondary' />" />
+                        <Button color='secondary' />
                     </div>
                     <div className="btn">
-                        < Title title="t" />
-                        <Button />
+                        < Title title="<Button color='danger' />" />
+                        <Button color='danger' />
                     </div>
                 </div>
 
