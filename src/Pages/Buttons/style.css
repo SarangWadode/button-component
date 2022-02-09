@@ -1,48 +1,40 @@
 .wrapper {
   flex: 0.8;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 .wrapper h1 {
   color: #4f4f4f;
-  width: 93px;
-  height: 36px;
-  left: 320px;
-  top: 53px;
   font-family: Poppins;
-  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
+  padding: 30px 0 0 100px;
 }
 
 .buttons {
     display: grid;
-    grid-row-gap: 25px;
-    padding-right: 50px;
-    margin: 30px 0;
-    /* background-color: crimson; */
+    grid-row-gap: 40px;
+    margin: 30px 100px;
 }
 
 
 .btns {
     display: grid;
-    /* background: rgb(150, 237, 100); */
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .btns-icons {
     display: grid;
-    /* background: rgb(150, 237, 100); */
     grid-template-columns: 1fr 1fr;
 }
 
 
 .btn {
-    /* background: rgb(20, 220, 170); */
     height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
