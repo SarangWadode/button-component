@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SarangWadode/button-component.git/static/css/main.9741b384.css",
-    "main.js": "/SarangWadode/button-component.git/static/js/main.9cb99396.js",
-    "static/js/787.4fd33e14.chunk.js": "/SarangWadode/button-component.git/static/js/787.4fd33e14.chunk.js",
-    "index.html": "/SarangWadode/button-component.git/index.html",
-    "main.9741b384.css.map": "/SarangWadode/button-component.git/static/css/main.9741b384.css.map",
-    "main.9cb99396.js.map": "/SarangWadode/button-component.git/static/js/main.9cb99396.js.map",
-    "787.4fd33e14.chunk.js.map": "/SarangWadode/button-component.git/static/js/787.4fd33e14.chunk.js.map"
+    "main.css": "/button-component/static/css/main.b0de35b9.css",
+    "main.js": "/button-component/static/js/main.f5c3cf2b.js",
+    "static/js/787.4fd33e14.chunk.js": "/button-component/static/js/787.4fd33e14.chunk.js",
+    "index.html": "/button-component/index.html",
+    "main.b0de35b9.css.map": "/button-component/static/css/main.b0de35b9.css.map",
+    "main.f5c3cf2b.js.map": "/button-component/static/js/main.f5c3cf2b.js.map",
+    "787.4fd33e14.chunk.js.map": "/button-component/static/js/787.4fd33e14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9741b384.css",
-    "static/js/main.9cb99396.js"
+    "static/css/main.b0de35b9.css",
+    "static/js/main.f5c3cf2b.js"
   ]
 }
