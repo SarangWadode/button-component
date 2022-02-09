@@ -1,23 +1,27 @@
 .footer {
+  height: 200px;
+  padding: 30px 100px;
 }
 
-.icon-url span,
-a {
+.icon-url ,.icon-url a {
   font-family: Ubuntu Mono;
   font-size: 16px;
   color: #828282;
+  line-height: 50px;
 }
 
 .icon-url a,
 .owner a {
+  color: #828282;
   text-decoration: none;
 }
 
 .owner {
   font-family: Montserrat;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 20px;
   color: #a9a9a9;
+  line-height: 50px;
 }
 
 .icon-url a:hover,

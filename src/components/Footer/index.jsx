@@ -9,9 +9,9 @@ export default function Footer() {
         </div>
         <div className="owner">
             <span>created by </span>
-            <a href="https://devchallenges.io/portfolio/SarangWadode">SarangWadode</a>
+            <a href="https://devchallenges.io/portfolio/SarangWadode" title='Profile' >SarangWadode</a>
             <span> - </span>
-            <a href="https://devchallenges.io">devchallenges.io</a>
+            <a href="https://devchallenges.io" title="devchallenges" >devchallenges.io</a>
         </div>
     </div>;
 }
