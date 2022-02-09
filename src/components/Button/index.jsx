@@ -45,9 +45,9 @@ export default function Button({ varient, disabled, disableShadow, icon, size, c
       `.trim()}
       disabled={(disabled) ? 'disabled' : false}
     >
-      {(icon) ? <span className="icon">{(icon === 'start') ? <LocalGroceryStoreIcon style={{'color': '#fff','verticle-align': 'middle', 'font-size': '1em'}} /> : ''}</span>:''}
+      {(icon) ? <span className="icon">{(icon === 'start') ? <LocalGroceryStoreIcon style={{'color': '#fff', 'fontSize': '1em'}} /> : ''}</span>:''}
       <span>Default</span>
-      {(icon) ? <span className="icon">{(icon === 'end') ? <LocalGroceryStoreIcon style={{'color': '#fff','verticle-align': 'middle', 'font-size': '1em'}} /> : ''}</span>:''}
+      {(icon) ? <span className="end">{(icon === 'end') ? <LocalGroceryStoreIcon style={{'color': '#fff', 'fontSize': '1em'}} /> : ''}</span>:''}
     </button>
   </>;
 }
